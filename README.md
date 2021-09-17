@@ -1,5 +1,4 @@
 # TRACE_GPU
---------------
 Accelerate TRACE algorithm with GPU computing.
 
 GPU computing is used for part of the emission matrix calculation and the viterbi decoding step in TRACE.
