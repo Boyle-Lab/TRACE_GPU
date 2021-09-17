@@ -1,0 +1,34 @@
+processing TF 1: Alx1  single TF pwm time: 280131
+P: 28 L: 0 T: 12602
+pwm time: 330386
+Preprocessing before GPU time: 332784
+decoding... scanning peak file and calculating posterior probabilities for all positions
+viterbi start: 0 28
+GPU starting time: 335591
+Emission cpu Time: 274
+get_emission_kernel time 4.8 ms
+Prepare arrays for viterbi part time 7.1 ms
+fwd kernel time 148.8 ms
+bwd kernel time 158.3 ms
+viterbi kernel time 65.1 ms
+posterior arrays copy time 21.6 ms
+GPU emission & viterbi Time: 627356
+peak 28 finished
+Total Time: 965629
+processing TF 2: ALX3  single TF pwm time: 185919
+P: 50 L: 0 T: 28613
+pwm time: 367354
+Preprocessing before GPU time: 814970
+decoding... scanning peak file and calculating posterior probabilities for all positions
+viterbi start: 0 50
+GPU starting time: 820168
+Emission cpu Time: 19769
+get_emission_kernel time 9.0 ms
+Prepare arrays for viterbi part time 4.6 ms
+fwd kernel time 297.4 ms
+bwd kernel time 369.2 ms
+viterbi kernel time 129.5 ms
+posterior arrays copy time 46.5 ms
+GPU emission & viterbi Time: 887626
+peak 50 finished
+Total Time: 1951143
