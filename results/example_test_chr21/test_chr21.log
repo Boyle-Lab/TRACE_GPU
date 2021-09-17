@@ -1,6 +1,5 @@
-processing TF 1: Alx1  single TF pwm time: 280131
+processing TF 1: Alx1
 P: 28 L: 0 T: 12602
-pwm time: 330386
 Preprocessing before GPU time: 332784
 decoding... scanning peak file and calculating posterior probabilities for all positions
 viterbi start: 0 28
@@ -15,9 +14,8 @@ posterior arrays copy time 21.6 ms
 GPU emission & viterbi Time: 627356
 peak 28 finished
 Total Time: 965629
-processing TF 2: ALX3  single TF pwm time: 185919
+processing TF 2: ALX3
 P: 50 L: 0 T: 28613
-pwm time: 367354
 Preprocessing before GPU time: 814970
 decoding... scanning peak file and calculating posterior probabilities for all positions
 viterbi start: 0 50
