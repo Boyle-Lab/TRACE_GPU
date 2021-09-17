@@ -39,4 +39,4 @@ Output: ```results/*_chr21_viterbi_results.txt```
 
 * The TF list is in ```data/TF_list_2020.txt```. In the main function in ```src/esthmm_gpu.c```, it will iterate over the first N TFs in the TF list (i.e. ```nTF``` in line 72 of ```src/esthmm_gpu.c``` ), TFs without available model files under ```data/model_file``` will be skipped. ```nTF``` is currently set as **3** for a quick test, you should get 2 output files under ```results/```.
 
-* The example output files are under ```results/example_test_chr21```. The running time for each step on our machine can be found in ```results/example_test_chr21/test_chr21.log```.
+* The example output files are under ```results/example_test_chr21```. The running time for each step on our machine can be found in ```results/example_test_chr21/test_chr21.log``` (in microseconds for lines with no unit).
