@@ -1,2 +1,2 @@
-# TRACE_gpu
+# TRACE_GPU
 Accelerate TRACE algorithm with GPU computing
