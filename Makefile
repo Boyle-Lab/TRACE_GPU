@@ -1,10 +1,7 @@
-#PY = $(/data/software/Miniconda3/4.3.30/lib)
-#PY = /home/nouyang/.conda/envs/TRACE_env
-#PYLIB = $(PY)/lib/libpython3.7m.a
 PY = /home/shengchd/.conda/envs/TRACE_env_3.8
-#PYLIB = /home/nouyang/.conda/pkgs/python-3.8.2-h191fe78_0/lib/libpython3.8.a
 PYINC = -I$(PY)/include -I$(PY)/lib -I$(PY)/bin -I$(PY) -I./ -I$(PY)/include/python3.8 \
         -I/data/software/GSL/2.1-foss-2017a/include -I/data/software/GSL/2.1-foss-2017a/lib
+#PYLIB = /home/nouyang/.conda/pkgs/python-3.8.2-h191fe78_0/lib/libpython3.8.a
 LIBS = -L/usr/lib -L./ -L/$(PY)/lib/ -L/$(PY)/lib/pkgconfig/ \
        -L/data/software/GSL/2.1-foss-2017a/lib \
 	   -lX11 -ldl -lrt -lutil -lquadmath -lcrypt \
