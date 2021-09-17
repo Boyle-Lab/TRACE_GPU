@@ -69,8 +69,7 @@ int main (int argc, char **argv)
   int errflg=0, vflg=0, iflg=0, sflg=0, rflg=0, zflg=0, xflg = 0, gflg = 0, cflg = 0;
   int siflg = 0, eiflg = 0, prflg = 0;
   int nStart = 0;
-  ////Change to nTF=746 to run over all TFs in list (666 TFs with available model files)//////
-  int nTF = 3; 
+  int nTF = 3;  ////Change to nTF=746 to run over all TFs in list (666 TFs with available model files)//////
   int nEnd = nTF;
   char *slopefile, *countfile, *seqfile, *listfile, *thresholdfile;
   char *hmminitfile, *motiffile, *outfile, *scorefile, *predfile;
