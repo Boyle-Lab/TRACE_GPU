@@ -77,6 +77,8 @@ Output: ```results/*_chr21_viterbi_results.txt```
 
 **Note:**
 
+* ```--chr``` is the chromosome name used in the output file names.
+
 * The TF list is in ```data/TF_list_2020.txt```. In the main function in ```src/esthmm_gpu.c```, it will iterate over the first N TFs in the TF list (i.e. ```nTF``` in line 72 of ```src/esthmm_gpu.c``` ), TFs without available model files under ```data/model_file``` will be skipped. ```nTF``` is currently set as 3 for a quick test, you should get 2 output files under ```results/```. To iterate over all TFs, set ```nTF``` as **746**, you should then get 666 output files.
 
 * The 2 example output files are under ```results/example_test_chr21```. The running time for each step on our machine can be found in ```results/example_test_chr21/test_chr21.log``` (in microseconds if with no unit).
